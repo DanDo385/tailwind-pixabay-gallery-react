@@ -778,6 +778,11 @@ video {
   margin: 12rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1253,6 +1258,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1435,6 +1444,10 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2592,3 +2605,4 @@ video {
     }
   }
 }
+
